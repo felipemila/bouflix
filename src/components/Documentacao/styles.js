@@ -43,17 +43,25 @@ export const Documentacao = styled.footer`
   color:#02215e;
 }
 
-  h1{
-  margin-top: 1.5rem;
+  h1{  
   font-weight: bolder;
+  margin-bottom: 1rem;
   color:  #ecc100;
 }
 
-
-  a{
+  p{
   font-size: larger;
   margin-top: 1.5rem;
   margin-left: 1.5rem;
+  margin-bottom: 1rem;
   font-weight: bolder;  
+}
+
+
+  a{  
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-weight: bolder;
+  color: #ecc100;
 }
 `;
