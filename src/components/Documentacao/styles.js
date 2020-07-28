@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const Newsletter = styled.footer`
+export const Documentacao = styled.footer`
   background: var(--black);
   border-top: 2px solid var(--primary);
   padding-left: 16px;
@@ -16,7 +16,7 @@ export const Newsletter = styled.footer`
 
   .news {
   padding: .30rem;
-  width: 15em;
+  width: 15em;  
   border: 1.5px solid #ecc100;
   align-items: center;
   text-align: center;
@@ -43,11 +43,17 @@ export const Newsletter = styled.footer`
   color:#02215e;
 }
 
+  h1{
+  margin-top: 1.5rem;
+  font-weight: bolder;
+  color:  #ecc100;
+}
 
 
   a{
   font-size: larger;
   margin-top: 1.5rem;
+  margin-left: 1.5rem;
   font-weight: bolder;  
 }
 `;
