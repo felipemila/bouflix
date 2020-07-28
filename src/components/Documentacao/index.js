@@ -8,7 +8,8 @@ const enviar = async () => {
 function Capturar() {
   return (
     <Documentacao>
-      <h1>DOCUMENTAÇÃO</h1>
+      <h1>DOCUMENTAÇÃO E GUIAS</h1>
+      <p>Aqui você encontra guias e documentações oficiais para auxiliar sua jornada de aprendizado.</p>
       <a href="https://docs.aws.amazon.com/pt_br/AmazonS3/latest/dev/Introduction.html">AWS S3</a>
       <a>AWS Glue</a>
       <a>Python</a>

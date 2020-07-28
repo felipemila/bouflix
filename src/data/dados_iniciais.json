@@ -1,11 +1,11 @@
 {
   "categorias": [
     {
-      "titulo": "AWS S3",
+      "titulo": "AWS",
       "link": "",
-      "cor": "#ecc100",
+      "cor": "orange",
       "link_extra": {
-        "text": "Aprenda todos os serviços do armazenamento S3",
+        "text": "Aprenda sobre os serviços da Amazon Web Services",
         "url": ""
       },
       "videos": [
@@ -32,10 +32,10 @@
       ]
     },
     {
-      "titulo": "AWS Glue",
-      "cor": "#ecc100",
+      "titulo": "AWS (Inglês)",
+      "cor": "orange",
       "link_extra": {
-        "text": "Extração, transformação, ETL para a preparação de dados",
+        "text": "Vídeos em inglês sobre a Amazon Web Services",
         "url": ""
       },
       "videos": [
@@ -59,7 +59,7 @@
     },
     {
       "titulo": "MYSQL",
-      "cor": "#ecc100",
+      "cor": "#1273DE",
       "link_extra": {
         "text": "Aprenda a usar o banco de dados mais popular do mundo",
         "url": ""
@@ -85,9 +85,9 @@
     },
     {
       "titulo": "Zabbix",
-      "cor": "#ecc100",
+      "cor": "#B80000",
       "link_extra": {
-        "text": "O Zabbix fornece métricas de monitoramento para a sua empresa",
+        "text": "O Zabbix fornece métricas de monitoramento para empresas",
         "url": ""
       },
       "videos": [
@@ -110,62 +110,54 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Python",
       "cor": "#ecc100",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Aprenda a usar linguagem Python para análise de dados",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "",
+          "url": ""
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "",
+          "url": ""
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "",
+          "url": ""
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
+          "titulo": "",
+          "url": ""
+        }        
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "React",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Aprenda a criar aplicativos Web usando React",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "",
+          "url": ""
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "",
+          "url": ""
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "",
+          "url": ""
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "",
+          "url": ""
         }
       ]
     }
