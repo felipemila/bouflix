@@ -2,7 +2,7 @@
   "categorias": [
     {
       "titulo": "AWS S3",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "link": "",
       "cor": "#ecc100",
       "link_extra": {
         "text": "Aprenda todos os serviços do armazenamento S3",
@@ -33,7 +33,7 @@
     },
     {
       "titulo": "AWS Glue",
-      "cor": "green",
+      "cor": "#ecc100",
       "link_extra": {
         "text": "Extração, transformação, ETL para a preparação de dados",
         "url": ""
@@ -59,7 +59,7 @@
     },
     {
       "titulo": "MYSQL",
-      "cor": "blue",
+      "cor": "#ecc100",
       "link_extra": {
         "text": "Aprenda a usar o banco de dados mais popular do mundo",
         "url": ""
@@ -85,7 +85,7 @@
     },
     {
       "titulo": "Zabbix",
-      "cor": "orange",
+      "cor": "#ecc100",
       "link_extra": {
         "text": "O Zabbix fornece métricas de monitoramento para a sua empresa",
         "url": ""
@@ -111,7 +111,7 @@
     },
     {
       "titulo": "Games",
-      "cor": "red",
+      "cor": "#ecc100",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
