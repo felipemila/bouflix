@@ -3,7 +3,7 @@
     {
       "titulo": "AWS",
       "link": "",
-      "cor": "orange",
+      "cor": "#146eb4",
       "link_extra": {
         "text": "Aprenda sobre os serviços da Amazon Web Services",
         "url": ""
@@ -49,7 +49,7 @@
     },
     {
       "titulo": "AWS (Inglês)",
-      "cor": "orange",
+      "cor": "#ff9900",
       "link_extra": {
         "text": "Vídeos em inglês sobre os serviços da Amazon Web Services",
         "url": ""
@@ -74,8 +74,8 @@
       ]
     },
     {
-      "titulo": "MYSQL",
-      "cor": "#1273DE",
+      "titulo": "MySQL",
+      "cor": "#00758f",
       "link_extra": {
         "text": "Aprenda a usar o banco de dados mais popular do mundo",
         "url": ""
@@ -127,53 +127,53 @@
     },
     {
       "titulo": "Python",
-      "cor": "#ecc100",
+      "cor": "#ffde57",
       "link_extra": {
         "text": "Aprenda a usar linguagem Python para análise de dados",
         "url": ""
       },
       "videos": [
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Sobre o Python",
+          "url": "https://www.youtube.com/watch?v=uOgDa1rlqjE"
         },
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Lendo os Dados do Excel",
+          "url": "https://www.youtube.com/watch?v=rQUYpJvMgn8&t=47s"
         },
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Curso Completo em Python",
+          "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
         },
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Análise de dados em Python",
+          "url": "https://www.youtube.com/watch?v=W_Bz7M91R1Q"
         }        
       ]
     },
     {
       "titulo": "React",
-      "cor": "#6b5be2",
+      "cor": "#00d8ff",
       "link_extra": {
         "text": "Aprenda a criar aplicativos Web usando React",
         "url": ""
       },
       "videos": [
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Aula Completa React",
+          "url": "https://www.youtube.com/watch?v=0k3czp6O-qg&list=PLXe1Uv1JGlTbrdrcZIZOabEBSpeNeVHD7"
         },
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Guia para Iniciantes",
+          "url": "https://www.youtube.com/watch?v=Ws9WVHhNq5M"
         },
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Criando um Conversor de Moedas",
+          "url": "https://www.youtube.com/watch?v=tbLziJchz48"
         },
         {
-          "titulo": "",
-          "url": ""
+          "titulo": "Usando React Hooks (useEffect e useMemo)",
+          "url": "https://www.youtube.com/watch?v=Gmiz-j_K340"
         }
       ]
     }
