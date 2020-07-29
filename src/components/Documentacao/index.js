@@ -14,7 +14,11 @@ function Capturar() {
       <a href="https://docs.aws.amazon.com/pt_br/AmazonS3/latest/dev/Introduction.html">S3</a>
       <a href="https://docs.aws.amazon.com/pt_br/glue/latest/dg/how-it-works.html">Glue</a>
       <a href="https://docs.aws.amazon.com/pt_br/lambda/latest/dg/welcome.html">Lambda</a>
-      <a href="https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html">EC2</a>      
+      <a href="https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/concepts.html">EC2</a>
+      <p>Cursos Online</p>
+      <a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1076168">React + Redux</a>
+      <a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1033578">Monitoramento com Zabbix</a>
+      <a href="https://www.udemy.com/course-dashboard-redirect/?course_id=2259590">Python: Básico ao Avançado</a>
     </Documentacao>
   );
 }
