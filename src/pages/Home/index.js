@@ -14,7 +14,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O Aplicativo para Zabbix  foi pensado para facilitar as rotinas do seu ambiente de monitoramento assim como trazer notificações importantes para perto de você!"}
+        videoDescription={"Uma mudança estrutural nas organizações e na sociedade impulsionada pela tecnologia cloud."}
       />      
 
       <Carousel
