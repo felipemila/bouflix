@@ -86,7 +86,6 @@ function CadastroCategoria() {
         <Button>
           Adicionar
         </Button>
-
         <ul>
           {categorias.map((categoria) => (
             <li key={`${categoria.titulo}`}>
