@@ -74,6 +74,32 @@
       ]
     },
     {
+      "titulo": "React",
+      "cor": "#00d8ff",
+      "link_extra": {
+        "text": "Aprenda a criar aplicativos Web usando React",
+        "url": ""
+      },
+      "videos": [
+        {
+          "titulo": "Aula Completa React",
+          "url": "https://www.youtube.com/watch?v=0k3czp6O-qg&list=PLXe1Uv1JGlTbrdrcZIZOabEBSpeNeVHD7"
+        },
+        {
+          "titulo": "Guia para Iniciantes",
+          "url": "https://www.youtube.com/watch?v=Ws9WVHhNq5M"
+        },
+        {
+          "titulo": "Criando um Conversor de Moedas",
+          "url": "https://www.youtube.com/watch?v=tbLziJchz48"
+        },
+        {
+          "titulo": "Usando React Hooks (useEffect e useMemo)",
+          "url": "https://www.youtube.com/watch?v=Gmiz-j_K340"
+        }        
+      ]
+    },
+    {
       "titulo": "MySQL",
       "cor": "#00758f",
       "link_extra": {
@@ -152,28 +178,28 @@
       ]
     },
     {
-      "titulo": "React",
-      "cor": "#00d8ff",
+      "titulo": "OCS Inventory",
+      "cor": "#371777",
       "link_extra": {
-        "text": "Aprenda a criar aplicativos Web usando React",
+        "text": "Aprenda a criar inventários de TI",
         "url": ""
       },
       "videos": [
         {
-          "titulo": "Aula Completa React",
-          "url": "https://www.youtube.com/watch?v=0k3czp6O-qg&list=PLXe1Uv1JGlTbrdrcZIZOabEBSpeNeVHD7"
+          "titulo": "Conhecendo o OCS Inventory",
+          "url": "https://www.youtube.com/watch?v=eNgxRO_0qYs"
         },
         {
-          "titulo": "Guia para Iniciantes",
-          "url": "https://www.youtube.com/watch?v=Ws9WVHhNq5M"
+          "titulo": "Introdução ao OCS Inventory Server e Agent",
+          "url": "https://www.youtube.com/watch?v=GkXfrY96vpk"
         },
         {
-          "titulo": "Criando um Conversor de Moedas",
-          "url": "https://www.youtube.com/watch?v=tbLziJchz48"
+          "titulo": "Instalação do Agente OCS",
+          "url": "https://www.youtube.com/watch?v=saaxyT7uCpE"
         },
         {
-          "titulo": "Usando React Hooks (useEffect e useMemo)",
-          "url": "https://www.youtube.com/watch?v=Gmiz-j_K340"
+          "titulo": "Instalando OCS no Docker",
+          "url": "https://www.youtube.com/watch?v=ZHyugn2DXMo"
         }
       ]
     }
