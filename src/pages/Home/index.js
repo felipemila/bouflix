@@ -14,7 +14,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Uma mudança estrutural nas organizações e na sociedade impulsionada pela tecnologia cloud."}
+        videoDescription={"Utilize essa plataforma de aprendizagem da Beonup para aprimorar seus conhecimentos nas ferramentas e serviços que utilizamos para solucionar problemas."}
       />      
 
       <Carousel
