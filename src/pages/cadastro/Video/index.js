@@ -29,7 +29,9 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
-      <h1>Adicionar Video</h1>
+      <h1>Adicionar Vídeo</h1>
+      <p>Use esse formulário para adicionar vídeos que irão agregar na aprendizadem para futuros usuários.</p>
+      <p>Lembre-se de escolher uma categoria que corresponda ao vídeo adicionado.</p>
 
       <form onSubmit={(event) => {
         event.preventDefault();
