@@ -43,12 +43,12 @@
         },
         {
           "titulo": "Como criar uma VPC",
-          "url": "https://www.youtube.com/watch?v=EUAk9KlS1pM&t=37s"
+          "url": "https://www.youtube.com/watch?v=EUAk9KlS1pM&t"
         }
       ]
     },
     {
-      "titulo": "AWS (Inglês)",
+      "titulo": "AWS - Inglês",
       "cor": "#ff9900",
       "link_extra": {
         "text": "Vídeos em inglês sobre os serviços da Amazon Web Services",
@@ -60,7 +60,7 @@
           "url": "https://www.youtube.com/watch?v=L3dYocCSU-E"
         },
         {
-          "titulo": "Começando a usar o AWS Glue",
+          "titulo": "How to use AWS Glue",
           "url": "https://www.youtube.com/watch?v=z3HeHlWg88M"
         },
         {
@@ -68,7 +68,7 @@
           "url": "https://www.youtube.com/watch?v=qNojanBn1NY"
         },
         {
-          "titulo": "Explicando AWS Glue",
+          "titulo": "What is AWS Glue?",
           "url": "https://www.youtube.com/watch?v=32oVe1RLGxM"
         }        
       ]
@@ -165,7 +165,7 @@
         },
         {
           "titulo": "Lendo os Dados do Excel",
-          "url": "https://www.youtube.com/watch?v=rQUYpJvMgn8&t=47s"
+          "url": "https://www.youtube.com/watch?v=rQUYpJvMgn8&t"
         },
         {
           "titulo": "Curso Completo em Python",

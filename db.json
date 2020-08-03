@@ -1,16 +1,267 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Front End",
-            "descricao": "Uma categoria show",
-            "cor": "#CBD1FF"
-        },
-        {
-            "id": 2,
-            "nome": "Back End End",
-            "descricao": "Outra categoria show",
-            "cor": "#CBD1FF"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "AWS",
+      "cor": "#146eb4",
+      "link_extra": {
+        "text": "Aprenda sobre os serviços da Amazon Web Services",
+        "url": ""
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "AWS - Inglês",
+      "cor": "#ff9900",
+      "link_extra": {
+        "text": "Vídeos em inglês sobre os serviços da Amazon Web Services",
+        "url": ""
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "React",
+      "cor": "#00d8ff",
+      "link_extra": {
+        "text": "Aprenda a criar aplicativos Web usando React",
+        "url": ""
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "MySQL",
+      "cor": "#00758f",
+      "link_extra": {
+        "text": "Aprenda a usar o banco de dados mais popular do mundo",
+        "url": ""
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Zabbix",
+      "cor": "#B80000",
+      "link_extra": {
+        "text": "O Zabbix fornece métricas de monitoramento para empresas",
+        "url": ""
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Python",
+      "cor": "#ffde57",
+      "link_extra": {
+        "text": "Aprenda a usar linguagem Python para análise de dados",
+        "url": ""
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "OCS Inventory",
+      "cor": "#371777",
+      "link_extra": {
+        "text": "Aprenda a criar inventários de TI",
+        "url": ""
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "SEJA BEM-VINDO A NUVEM!",
+      "url": "https://www.youtube.com/watch?v=9FSOzT9eVZ4"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "O que é computação em nuvem?",
+      "url": "https://www.youtube.com/watch?v=OFIVUTmc2cs"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Armazenamento do S3 na AWS",
+      "url": "https://www.youtube.com/watch?v=xy_u6_75ilc"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "AWS Lambda",
+      "url": "https://www.youtube.com/watch?v=sleq1f2cMrw"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "AWS na Prática - S3",
+      "url": "https://www.youtube.com/watch?v=LFwUdg5cfV4"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Configurando Instância EC2",
+      "url": "https://www.youtube.com/watch?v=yJD_LswZME8"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Criando um Bucket no S3",
+      "url": "https://www.youtube.com/watch?v=tXiZ2mZLECg&t=19s"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Subindo um banco RDS",
+      "url": "https://www.youtube.com/watch?v=fDg-4n5q2ck"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Como criar uma VPC",
+      "url": "https://www.youtube.com/watch?v=EUAk9KlS1pM&t"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "AWS for Beginners",
+      "url": "https://www.youtube.com/watch?v=L3dYocCSU-E"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "How to use AWS Glue",
+      "url": "https://www.youtube.com/watch?v=z3HeHlWg88M"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Data Catalog",
+      "url": "https://www.youtube.com/watch?v=qNojanBn1NY"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "What is AWS Glue?",
+      "url": "https://www.youtube.com/watch?v=32oVe1RLGxM"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Aula Completa React",
+      "url": "https://www.youtube.com/watch?v=0k3czp6O-qg&list=PLXe1Uv1JGlTbrdrcZIZOabEBSpeNeVHD7"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Guia para Iniciantes",
+      "url": "https://www.youtube.com/watch?v=Ws9WVHhNq5M"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Criando um Conversor de Moedas",
+      "url": "https://www.youtube.com/watch?v=tbLziJchz48"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Usando React Hooks (useEffect e useMemo)",
+      "url": "https://www.youtube.com/watch?v=Gmiz-j_K340"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Instalando e configurando o MySQL",
+      "url": "https://www.youtube.com/watch?v=KYaZVqHHXpM"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Criando o primeiro Banco de Dados",
+      "url": "https://www.youtube.com/watch?v=m9YPlX0fcJk"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Tutorial Mysql para Iniciantes",
+      "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA&t=4562s"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Como instalar e baixar Workbench",
+      "url": "https://www.youtube.com/watch?v=fmerTu7dWk8"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Como funciona o Zabbix?",
+      "url": "https://www.youtube.com/watch?v=Jy9ixNmevRk"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Zabbix para iniciantes",
+      "url": "https://www.youtube.com/watch?v=MYEa_4o0Fio"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Introdução ao Zabbix",
+      "url": "https://www.youtube.com/watch?v=2IVpPP-IhKM"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Zabbix e Telegram",
+      "url": "https://www.youtube.com/watch?v=ej2AbZ1SqVU"
+    },
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "Sobre o Python",
+      "url": "https://www.youtube.com/watch?v=uOgDa1rlqjE"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "Lendo os Dados do Excel",
+      "url": "https://www.youtube.com/watch?v=rQUYpJvMgn8&t"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Curso Completo em Python",
+      "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Análise de dados em Python",
+      "url": "https://www.youtube.com/watch?v=W_Bz7M91R1Q"
+    },
+    {
+      "id": 30,
+      "categoriaId": 7,
+      "titulo": "Conhecendo o OCS Inventory",
+      "url": "https://www.youtube.com/watch?v=eNgxRO_0qYs"
+    },
+    {
+      "id": 31,
+      "categoriaId": 7,
+      "titulo": "Introdução ao OCS Inventory Server e Agent",
+      "url": "https://www.youtube.com/watch?v=GkXfrY96vpk"
+    },
+    {
+      "id": 32,
+      "categoriaId": 7,
+      "titulo": "Instalação do Agente OCS",
+      "url": "https://www.youtube.com/watch?v=saaxyT7uCpE"
+    },
+    {
+      "id": 33,
+      "categoriaId": 7,
+      "titulo": "Instalando OCS no Docker",
+      "url": "https://www.youtube.com/watch?v=ZHyugn2DXMo"
+    }
+  ]
 }

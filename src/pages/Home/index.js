@@ -1,57 +1,67 @@
-import React from 'react';
-import Menu from '../../components/Menu';
-import dadosIniciais from '../../data/dados_iniciais.json'
+import React, { useEffect, useState } from 'react';
+//import dadosIniciais from '../../data/dados_iniciais.json'
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
 import Documentacao from '../../components/Documentacao';
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
+import LoadingScreen from '../../components/LoadingScreen/';
 
-function Home() {
+function Home() {  
+  const [ categorias, setCategorias] = useState([])
+
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        setCategorias([...categoriasComVideos,])
+      })
+      .catch((e) => {console.log(e.message)});
+
+  }, [])  
+  console.log(categorias)
   return (
-    <div style={{background: "#141414"}} >
-      <Menu></Menu>
+      <PageDefault paddingAll={0}>
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Utilize essa plataforma de aprendizagem da Beonup para aprimorar seus conhecimentos nas ferramentas e serviços que utilizamos para solucionar problemas."}
-      />      
+        {categorias.length === 0 && (
+          <LoadingScreen />
+        )}
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
+        {categorias.length > 0 && (
 
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
+          categorias.map((categoria, index) => {
+            if(index === 0){
+              return (
+                <div key={Math.random()}>            
+                  <BannerMain
+                    key={Math.random()}
+                    videoTitle={categorias[0].titulo}
+                    url={categorias[0].videos[0].url}
+                    videoDescription={categorias[0].videos[0].titulo}
+                  />
+                  <Carousel
+                    key={Math.random()}
+                    ignoreFirstVideo
+                    category={categoria}
+                  />
+            
+                </div>
+              )
+            }
 
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />
+            return (
+              <Carousel
+                key={Math.random()}
+                category={categoria}
+              />
+            )
+          })
 
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />
+        )}
+        <Documentacao></Documentacao>
 
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[6]}
-      />
-
-      <Documentacao/>
-
-      <Footer />
-
-    </div>
-  );
+      </PageDefault>
+    )
+  
 }
 
 export default Home;
