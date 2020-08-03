@@ -78,9 +78,7 @@ function CadastroVideo() {
       <br />
       <br />
 
-      <Link className="link-style" to="/cadastro/categoria">
-        <a>Adicionar Categoria</a>
-      </Link>
+
     </PageDefault>
   );
 }
