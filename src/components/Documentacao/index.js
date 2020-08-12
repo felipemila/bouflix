@@ -26,7 +26,7 @@ function Capturar() {
       <a href="https://wiki.projetoroot.com.br/index.php?title=Ocs_inventory">Guia em Português</a>
       <a href="https://mastigado.wordpress.com/tag/ocs-inventory-ng-agent-for-windows/">Configurando Agente</a>
       <p>Cursos Online</p>
-      <a href= "https://www.aws.training/">Treinamento Certificado AWS</a>
+      <a href= "https://www.aws.training/">Treinamentos Certificação AWS</a>
       <a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1076168">React + Redux</a>
       <a href="https://www.udemy.com/course-dashboard-redirect/?course_id=1033578">Monitoramento com Zabbix</a>
       <a href="https://www.udemy.com/course-dashboard-redirect/?course_id=2259590">Python: Básico ao Avançado</a>
