@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## BOUFLIX
+
+This project is a static s3 website made for Beonup Interns to watch video tutorials about the services, technologies and tools that the company uses: AWS, Zabbix, OCS Inventory,
+Node.js, React, PHP, Python.
+
+Only reachable through our VPN:
+[http://bouflix.beonup.com.br](https://bouflix.beonup.com.br)
+
 
 ## Available Scripts
 
